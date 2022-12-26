@@ -1,0 +1,1146 @@
+#body{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: #f9f8f8;
+}
+#primo{
+  margin-top: 0px;
+  margin-left: 0px;
+  background-color: #202328; /* NOTE: tieni in seria considerazione #bf9a77 */
+  position: fixed;
+  height: 100%;
+  width: 250px;
+  font-family: 'Raleway', sans-serif;
+}
+#pb{
+  padding-top: 30px;
+  text-align: center;
+  color: #f9f8f8;
+  font-size: 30px;
+  font-weight: bolder;
+}
+#logo{
+  text-decoration: none;
+  color: #f9f8f8;
+}
+#immlogo{
+  width: 170px;
+  height: 90px;
+  align-self: center;
+  margin-left: 40px;
+}
+#par{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: oblique;
+  color: #f9f8f8;
+  font-size: 15px;
+}
+#mbtn{
+  display: none;
+}
+#lista{
+  text-decoration: none;
+  list-style: none;
+  line-height: 40px;
+  color: #f9f8f8;
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-left: 20px;
+  margin-top: 0px;
+}
+#ogg{
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #f9f8f8;
+  transition: 0.6s;
+  border-bottom: 2px solid #2b2e34
+}
+#ogg:hover{
+  background-color: #2b2e34; /* NOTE: cda783 */
+}
+#contenuti{
+  margin-left: 250px;
+}
+.titolo{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #202328;
+  color: #f9f8f8;
+  font-style: oblique;
+  font-size: 40px;
+  line-height: 200px;
+}
+.sottotitolo{
+  padding-left: 50px;
+  padding-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #202328;
+  font-size: 20px;
+}
+.paragrafo{
+  margin-left: 80px;
+  margin-right: 100px;
+  font-family: 'Raleway', sans-serif;
+  color: #202328;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: justify;
+}
+#citazione{
+  font-family: 'Raleway', sans-serif;
+  color: #202328;
+  font-style: oblique;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 25px;
+  padding-left: 50px;
+  padding-right: 80px;
+}
+.link{
+  color: #202328;
+  font-size: inherit;
+  font-family: 'Poppins', sans-serif;
+}
+#pathmob{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  margin-left: 15px;
+  color: #f9f8f8;
+  text-decoration: underline;
+  font-size: 17px;
+  font-weight: 300;
+}
+#titoletto{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  text-decoration:overline;
+  padding-top: 30px;
+  color: #202328;
+}
+#nota{
+  font-family: 'Poppins', sans-serif;
+  color: #202328;
+  padding-left: 60px;
+  padding-right: 40px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.didascalia{
+  font-family: 'Poppins', sans-serif;
+  color: #202328;
+  font-size: 12px
+}
+
+.vocilista{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  color: #202328;
+  font-family: 'Raleway',sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 25px;
+}
+#footer{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-top: 1px solid #2b2e34;
+  color: #202328;
+  background-color: #f9f8f8;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* NOTE: Home */
+#bannert{
+  display: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 56px;
+  line-height: 90px;
+  color: #202328; opacity: 1.0;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+} /* NOTE: ti prego mettilo in sesto perchè si sfasa in una maniera orrenda, martina davvero fai qualcosa */
+/* NOTE: veramente così può essere classificato come crimine d'odio */
+
+#banner{
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+  background-color: #202328;
+}
+
+.gal{
+  margin-left: 30px;
+  display: block;
+  padding-bottom: 50px;
+}
+
+.row{
+  display: flex;
+}
+
+.imm{
+  width: 100%;
+}
+
+.divimm{
+  float: left;
+  width: 30%;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+.divimmf{
+  width: 30%;
+  float: right;
+  display: block;
+  margin-bottom: 15px;
+}
+.separatoria{
+  margin-right: 40px;
+  margin-bottom: 50px;
+  border: 1px solid #2b2e34
+}
+
+#gal2{
+  display: none;
+}
+#gal3{
+  display: none;
+}
+#gal4{
+  display: none;
+}
+
+.btn{
+  background-color: #f9f8f8;
+  color: #202328;
+  border: 2px solid #202328;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  width: 85%;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 14px;
+  transition: 0.6s;
+}
+.btn:hover{
+  background-color: #202328;
+  color: #f9f8f8;
+}
+
+#mappa{
+  margin-top: 10px;
+  padding-left: 50px;
+  width: 80%;
+  height: 300px;
+}
+
+
+/* NOTE: Cron */
+#t_cron{
+  background-image: url("immagini/ivan/centrale1.jpeg");
+  color: #202328;
+}
+
+#lineaa{
+  border-left: 3px solid #202328;
+  margin-left: 70px;
+}
+#barra{
+  float:left;
+  margin-top: 30px;
+  width: 30px;
+  height: 3px;
+  background-color: #202328;
+  border-style: none;
+}
+
+/* NOTE: Rest */
+#t_rest{
+  background-image: url("immagini/anna/cornicione in restauro.png");
+}
+#divimmfoglia{
+  width: 30%;
+  float: right;
+  margin-left: 35px;
+  margin-right: 100px;
+}
+#immfoglia{
+  width: 100%;
+}
+
+#immstato{
+  margin: auto;
+  display: block;
+  width: 70%;
+}
+
+#rest1{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+#cartiglio{
+  float: left
+}
+
+#voluta{
+  float: right;
+}
+
+#cartiglioimm{
+  width: 90%;
+}
+
+#volutaimm{
+  width: 90%;
+}
+
+#divimmrestauro{
+  width: 35%;
+  float: right;
+  margin-left: 35px;
+  margin-right: 100px;
+}
+
+#immrestauro{
+  width: 100%;
+}
+
+
+/* NOTE: Antico */
+#t_ant{
+  background-image: url("immagini/bandaport.png");
+  color: #202328;
+}
+
+.pgfant{
+  display: flex;
+}
+
+#divimmportalestemma{
+  float: right;
+  width: 40%;
+  margin-left: 35px;
+  margin-right: 100px;
+}
+
+#immportalestemma{
+  width: 100%;
+}
+
+#divimmpanoplia{
+  float:left;
+  width: 200%;
+  margin-left: 80px;
+  margin-right: 35px;
+}
+#immpanoplia{
+  width: 130%;
+}
+
+#divimmgiardino{
+  width: 40%;
+  float: right;
+  margin-right: 100px;
+  margin-left: 35px;
+}
+#immgiardino{
+  width: 100%;
+}
+
+/* NOTE: Inq */
+#t_inq{
+  background-image: url("immagini/napoleonefascia.jpg");
+}
+.pgfinq{
+  display: flex;
+}
+
+#pdx{
+  margin-left: 35px;
+}
+
+#immalfonsodiv{
+  margin-left: 80px;
+  width: 40%;
+}
+
+#immalfonso{
+  width: 100%;
+}
+
+#immpasinidiv{
+  float: right;
+  width: 20%;
+  margin-left: 40px;
+  margin-right: 100px;
+}
+
+#immpasini{
+  width: 100%
+}
+
+#immgbentivogliodiv{
+  margin-left: 80px;
+  width: 150%;
+}
+
+#immgbentivoglio{
+  width: 100%;
+}
+
+#immcbentivogliodiv{
+  float: right;
+  width: 18%;
+  margin-left: 40px;
+  margin-right: 100px;
+}
+
+#immcbentivoglio{
+  width: 100%
+}
+
+#immbonatidiv{
+  margin-left: 80px;
+  width: 400%;
+
+}
+
+#immbonati{
+  width: 100%;
+}
+
+#immnapoleonediv{
+  width: 180%;
+  margin-left: 80px;
+}
+
+#immnapoleone{
+  width: 100%
+}
+
+/* NOTE: Uso */
+#t_uso{
+  background-image: url("immagini/bandascuola.jpg");
+  color: #202328
+}
+
+#immscuola{
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+#didscuola{
+  text-align: center;
+}
+
+#uso1{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+#piano-terra{
+  float: left
+}
+
+#primo-piano{
+  float: right;
+}
+
+#piano-terraimm{
+  width: 90%;
+}
+
+#primo-pianoimm{
+  width: 90%;
+}
+
+#uso2{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+#secondo-piano{
+  float: left
+}
+
+#terzo-piano{
+  float: right;
+}
+
+#secondo-pianoimm{
+  width: 90%;
+}
+
+#terzo-pianoimm{
+  width: 90%;
+}
+
+/* NOTE: Comm */
+#t_comm{
+  background-image: url("immagini/bandacbent.jpg")
+}
+
+#sottcomm{
+  text-align: center;
+  padding-right: 50px;
+}
+
+.pgfcom{
+  display: flex;
+}
+
+#stemmadiv{
+  margin-left: 80px;
+  width: 70%;
+}
+
+#stemmaimm{
+  width: 100%
+}
+
+#corneliobdiv{
+  margin-left: 80px;
+  width: 70%;
+}
+
+#corneliobimm{
+  width: 140%
+}
+
+#cartina2imm{
+  margin: auto;
+  display: block;
+  width: 60%;
+}
+
+#alberogenimm{
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+
+#cestero{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+#stampa{
+  float: left
+}
+
+#cartina1{
+  float: right;
+}
+
+#stampaimm{
+  width: 85%;
+}
+
+#cartina1imm{
+  width: 60%;
+}
+
+#medagliaimm{
+  margin: auto;
+  display: block;
+  width: 30%;
+}
+
+/* NOTE: Disperato tentativo di inserire media query */
+@media only screen and (max-width: 850px){
+  #body{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #f9f8f8;
+  }
+  #primo{
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #202328;
+    position: fixed;
+    width: 100%;
+    height: 9%;
+    font-family: 'Raleway', sans-serif;
+  }
+  #pb{
+    padding-top: 5px;
+    text-align: center;
+    color: #f9f8f8;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  #logo{
+    text-decoration: none;
+    color: #f9f8f8;
+  }
+  #immlogo{
+    display: none;
+  }
+  #par{
+    display: none;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: oblique;
+    color: #f9f8f8;
+    font-size: 15px;
+  }
+
+  #mbtn{
+    display: block;
+    float: right;
+    margin-top: 12px;
+    margin-right: 18px;
+    background: #202328;
+    border: none;
+    cursor: pointer;
+  }
+
+  .micon{
+    width: 25px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: 1px solid #f9f8f8;
+  }
+
+  #lista{
+    display: none;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    line-height: 30px;
+    color: #f9f8f8;
+    background-color: #202328;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #ogg{
+    margin-bottom: 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    color: #f9f8f8;
+    transition: 0.6s;
+    border-bottom: 2px solid #2b2e34
+  }
+  #ogg:hover{
+    background-color: #2b2e34;
+  }
+  #pathmob{
+    display: none;
+  }
+  #testa{
+    width: 100%;
+  }
+  #contenuti{
+    margin-left: 0px;
+    width: 100%;
+  }
+  .titolo{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #202328;
+    color: #f9f8f8;
+    font-style: oblique;
+    font-size: 20px;
+    line-height: 100px;
+    oppure immagine di sfondo, con più padding sopra per centrare il titolo
+  }
+
+  .sottotitolo{
+    padding-left: 25px;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #202328;
+    font-size: 15px;
+  }
+  .paragrafo{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 35px;
+    padding-right: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: #202328;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: justify;
+  }
+  #citazione{
+    font-family: 'Raleway', sans-serif;
+    font-style: oblique;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 25px;
+    padding-left: 90px;
+    padding-right: 100px;
+  }
+
+  .link{
+    color: #202328;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  #titoletto{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-decoration:overline;
+    padding-top: 50px;
+    color: #202328;
+  }
+  #nota{
+    font-family: 'Poppins', sans-serif;
+    color: #202328;
+    padding-left: 25px;
+    padding-right: 35px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: justify;
+  }
+
+  .vocilista{
+    margin-left: 45px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    color: #202328;
+    font-family: 'Raleway',sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  #footer{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 1px solid #2b2e34;
+    color: #202328;
+    background-color: #f9f8f8;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+
+/* NOTE: Home */
+  #bannert{
+    font-family: 'Raleway', sans-serif;
+    font-size: 56px;
+    line-height: 90px;
+    color: #f9f8f8;
+    position: absolute;
+    top: 50%;
+    background-color: #202328
+  } /* NOTE: ti prego mettilo in sesto perchè si sfasa in una maniera orrenda, martina davvero fai qualcosa */
+  /* NOTE: veramente così può essere classificato come crimine d'odio */
+
+  #banner{
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  .row{
+    display: block;
+  }
+
+  .gal{
+    margin-left: 30px;
+    display: block;
+    padding-bottom: 50px;
+  }
+  .divimm{
+    display: block;
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .divimmf{
+    float: none;
+    display: block;
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .separatoria{
+    margin-right: 40px;
+    margin-bottom: 50px;
+    border: 1px solid #2b2e34
+  }
+
+  #gal2{
+    display: none;
+  }
+  #gal3{
+    display: none;
+  }
+  #gal4{
+    display: none;
+  }
+
+  .btn{
+    background-color: #f9f8f8;
+    color: #202328;
+    border: 2px solid #202328;
+    border-radius: 8px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 0.6s;
+  }
+  .btn:hover{
+    background-color: #202328;
+    color: #f9f8f8;
+  }
+
+  #mappa{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 30px;
+    width: 83%;
+    height: 200px;
+  }
+
+  /* NOTE: Cron */
+  #lineaa{
+    border-left: 3px solid #202328;
+    margin-left: 30px;
+  }
+  #barra{
+    float:left;
+    margin-top: 30px;
+    width: 30px;
+    height: 3px;
+    background-color: #202328;
+  }
+
+  /* NOTE: Rest */
+  #t_rest{
+    background-image: url("immagini/anna/cornicione in restauro.png");
+  }
+  #divimmfoglia{
+    width: 60%;
+    float:none;
+    display: block; /* NOTE: PER CENTRARE */
+    margin: auto; /* NOTE: PER CENTRARE */
+  }
+  #immstato{
+    width: 80%;
+  }
+
+  #rest1{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  #cartiglio{
+    float: none;
+  }
+
+  #voluta{
+    float: none;
+  }
+
+  #cartiglioimm{
+    width: 90%;
+  }
+
+  #volutaimm{
+    width: 90%;
+  }
+
+  #divimmrestauro{
+    width: 70%;
+    float:none;
+    display: block;
+    margin: auto;
+  }
+
+  /* NOTE: Antico */
+  .pgfant{
+    display: block;
+  }
+  #divimmportalestemma{
+    float: none;
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+  #divimmpanoplia{
+    float: none;
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+  #immpanoplia{
+    width: 100%;
+  }
+  #divimmgiardino{
+    width: 70%;
+    float: none;
+    display: block;
+    margin: auto;
+  }
+
+  /* NOTE: Inq */
+  #t_inq{
+    background-image: url("immagini/napoleonefascia.jpg");
+  }
+  .pgfinq{
+    display: block;
+  }
+
+  #pdx{
+    margin-left: 0px;
+  }
+
+  #immalfonsodiv{
+    display: block;
+    margin: auto;
+    width: 60%;
+  }
+
+  #immalfonso{
+    width: 100%;
+  }
+
+  #immpasinidiv{
+    float: none;
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+
+  #immpasini{
+    width: 100%
+  }
+
+  #immgbentivogliodiv{
+    display: block;
+    margin:auto;
+    width: 60%;
+  }
+
+  #immgbentivoglio{
+    width: 100%;
+  }
+
+  #immcbentivogliodiv{
+    float: none;
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+
+  #immcbentivoglio{
+    width: 100%
+  }
+
+  #immbonatidiv{
+    display: block;
+    margin:auto;
+    width: 60%;
+
+  }
+
+  #immbonati{
+    width: 100%;
+  }
+
+  #immnapoleonediv{
+    width: 60%;
+    display: block;
+    margin:auto;
+  }
+
+  #immnapoleone{
+    width: 100%
+  }
+
+  /* NOTE: Uso */
+  #immscuola{
+    display: block;
+    margin: auto;
+    width: 60%;
+  }
+  #didscuola{
+    text-align: center;
+  }
+
+  #uso1{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  #piano-terra{
+    float: none;
+  }
+
+  #primo-piano{
+    float: none;
+  }
+
+  #piano-terraimm{
+    width: 90%;
+  }
+
+  #primo-pianoimm{
+    width: 90%;
+  }
+
+  #uso2{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  #secondo-piano{
+    float: left
+  }
+
+  #terzo-piano{
+    float: right;
+  }
+
+  #secondo-pianoimm{
+    width: 90%;
+  }
+
+  #terzo-pianoimm{
+    width: 90%;
+  }
+
+  /* NOTE: Comm */
+  #sottcomm{
+    text-align: center;
+    padding-right: 25px;
+  }
+
+  .pgfcom{
+    display: block;
+  }
+
+  #stemmadiv{
+    margin: auto;
+    display: block;
+    width: 70%;
+  }
+
+  #stemmaimm{
+    width: 100%
+  }
+
+  #corneliobdiv{
+    margin: auto;
+    display: block;
+    width: 60%;
+  }
+
+  #corneliobimm{
+    width: 100%
+  }
+
+  #cartina2imm{
+    margin: auto;
+    display: block;
+    width: 80%;
+  }
+
+  #alberogenimm{
+    margin: auto;
+    display: block;
+    width: 80%;
+  }
+
+  #cestero{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  #stampa{
+    float: none;
+  }
+
+  #cartina1{
+    float: none;
+  }
+
+  #stampaimm{
+    width: 80%;
+  }
+
+  #cartina1imm{
+    width: 80%;
+  }
+
+  #medagliaimm{
+    margin: auto;
+    display: block;
+    width: 70%;
+  }
+}

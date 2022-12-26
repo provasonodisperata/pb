@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="sito.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <title>Palazzo Bentivoglio Fe</title>
+  </head>
+  <body id="body">
+    <header id="primo">
+
+      <button type="button" id="mbtn" onclick="menu()"> <hr class="micon">  <hr class="micon">  <hr class="micon"> </button>
+      <script>
+        function menu() {
+          var x = document.getElementById("lista");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+         }
+      }
+      </script>
+
+      <h1 id="pb"> <a id="logo" href="index.html">PALAZZO BENTIVOGLIO</a></h1>
+      <p id="par">Dimora cinquecentesca nel cuore di Ferrara</p>
+      <nav id="sn">
+        <div class="nav-links" id="navxlinks">
+          <ul id="lista">
+            <li><a id="ogg" href="cronologiasito.html">LA CRONOLOGIA</a></li>
+            <li><a id="ogg" href="destusosito.html">LE DESTINAZIONI D'USO</a></li>
+            <li><a id="ogg" href="commsito.html">IL COMMITTENTE</a></li>
+            <li><a id="ogg" href="inqsito.html">GLI INQUILINI ILLUSTRI</a></li>
+            <li><a id="ogg" href="antsito.html">IL PALAZZO E L'ANTICO</a></li>
+            <li><a id="ogg" href="cittasito.html">IL PALAZZO NELLA CITTÀ</a></li>
+            <li><a id="ogg" href="restsito.html">IL RESTAURO MODERNO</a></li>
+            <li><a id="ogg" href="bibsito.html">Bibliografia</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </header>
+    <section id="contenuti">
+      <h1 class="titolo">Il Palazzo nella città</h1>
+
+      <footer id="footer">
+        <p>Ricerche e contenuti ad opera degli studenti delle classi IA e IB del liceo L.Ariosto di Ferrara come progetto PCTO per gli anni scolastici 2020-2023.</p>
+      </footer>
+    </section>
+
+  </body>
+</html>

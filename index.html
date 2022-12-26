@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="sito.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <title>Palazzo Bentivoglio Fe</title>
+  </head>
+  <body id="body">
+    <header id="primo">
+
+      <button type="button" id="mbtn" onclick="menu()"> <hr class="micon">  <hr class="micon">  <hr class="micon"> </button>
+      <script>
+        function menu() {
+          var x = document.getElementById("lista");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+         }
+      }
+      </script>
+
+      <h1 id="pb"> <a id="logo" href="index.html">PALAZZO BENTIVOGLIO</a></h1>
+      <p id="par">Dimora cinquecentesca nel cuore di Ferrara</p>
+      <nav id="sn">
+        <div class="nav-links">
+          <ul id="lista">
+            <li><a id="ogg" href="cronologiasito.html">LA CRONOLOGIA</a></li>
+            <li><a id="ogg" href="destusosito.html">LE DESTINAZIONI D'USO</a></li>
+            <li><a id="ogg" href="commsito.html">IL COMMITTENTE</a></li>
+            <li><a id="ogg" href="inqsito.html">GLI INQUILINI ILLUSTRI</a></li>
+            <li><a id="ogg" href="antsito.html">IL PALAZZO E L'ANTICO</a></li>
+            <li><a id="ogg" href="cittasito.html">IL PALAZZO NELLA CITTÀ</a></li>
+            <li><a id="ogg" href="restsito.html">IL RESTAURO MODERNO</a></li>
+            <li><a id="ogg" href="bibsito.html">Bibliografia</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </header>
+    <section id="contenuti">
+      <div id="testa">
+        <img id="banner" src="https://q-xx.bstatic.com/images/hotel/max1024x768/224/224285864.jpg" alt="facciata palazzo">
+          <h2 id="bannert">Palazzo Bentivoglio</h2> <!-- NOTE: qui volendo ci metti un testo che sta sopra l'immagine, c'è da mettere a posto il css perchè è sballatissimo -->
+
+      </div>
+
+     <h2 class="sottotitolo">Il sito</h2>
+     <p class="paragrafo">La realizzazione di questo sito nasce dal progetto PCTO (percorsi per le competenze trasversali e l'orientamento) delle classi IA e IB
+      del <a class="link" href="https://www.liceoariosto.edu.it/">Liceo classico L. Ariosto</a> durante gli anni 2020-2021, proseguite fino all'anno scolastico 2022-2023. Gli studenti si sono confrontati
+      con attività di ricerca in archivio e successivamente della selezione e organizzazione consapevole delle informazioni raccolte.
+      <br> L'ordine delle pagine del menù è stato pensato per fornire un percorso tematico fluido, progressivo, e coerente, è quindi consigliato per chi
+      desidera avere un panorama ampio e completo sul palazzo. Per coloro che invece cercano informazioni specifiche, le singole pagine rimangono esaustive e la loro consultazione
+      non necessita conoscenze pregresse.</p>
+
+     <h2 class="sottotitolo">Galleria</h2>
+
+     <section class="gal" id="gal1">
+    <div class="row">
+
+     <div class="divimm">
+       <img class="imm" src="immagini/alessio/portale1.jpeg" alt="">
+       <p class="didascalia">Portale</p>
+     </div>
+
+     <div class="divimm">
+       <img class="imm" src="immagini/anna/elemento statuario centrale.jpeg" alt="">
+       <p class="didascalia">Stemma fiancheggiato dalle personificazioni di Forza e Vittoria</p>
+     </div>
+
+     <div class="divimmf">
+       <img class="imm" src="immagini/ivan/panoplia2.jpeg" alt="">
+       <p class="didascalia">Panoplia</p>
+     </div>
+
+    </div>
+     <button type="button" class="btn" id="btn2" onclick="show2()">vedi di più</button>
+
+     <script type="text/javascript">
+       function show2() {
+         document.getElementById('gal2')
+                 .style.display="block";
+         document.getElementById('btn2')
+                 .style.display="none";
+       }
+     </script>
+   </section>
+
+     <section class="gal" id="gal2">
+       <hr class="separatoria">
+       <div class="row">
+
+        <div class="divimm">
+          <img class="imm" src="immagini/alessio/panopliadettaglio.jpeg" alt="">
+          <p class="didascalia">Dettaglio di una panoplia</p>
+        </div>
+
+        <div class="divimm">
+          <img class="imm" src="immagini/anna/portale e architrave.jpeg" alt="">
+          <p class="didascalia">Dettaglio dell'architrave a doppie volute</p>
+        </div>
+
+        <div class="divimmf">
+          <img class="imm" src="immagini/alessio/targabonati.jpeg" alt="">
+          <p class="didascalia">Targa commemorativa di Teodoro Bonati</p>
+        </div>
+
+       </div>
+
+     <button type="button" class="btn" id="btn3" onclick="show3()">vedi di più</button>
+
+     <script type="text/javascript">
+       function show3() {
+         document.getElementById('gal3')
+                 .style.display="block";
+         document.getElementById('btn3')
+                 .style.display="none";
+       }
+     </script>
+   </section>
+
+     <section class="gal" id="gal3">
+       <hr class="separatoria">
+       <div class="row">
+
+        <div class="divimm">
+          <img class="imm" src="immagini/alessio/biciclette interno.jpeg" alt="">
+          <p class="didascalia">Porticato interno</p>
+        </div>
+
+        <div class="divimm">
+          <img class="imm" src="immagini/anna/scala a lumaga interna.jpeg" alt="">
+          <p class="didascalia">Scala a chiocciola interna</p>
+        </div>
+
+        <div class="divimmf">
+          <img class="imm" src="immagini/alessio/scalainterna.jpeg" alt="">
+          <p class="didascalia">Scala a chiocciola interna</p>
+        </div>
+
+       </div>
+
+     <button type="button" class="btn" id="btn4" onclick="show4()">vedi di più</button>
+
+     <script type="text/javascript">
+       function show4() {
+         document.getElementById('gal4')
+                 .style.display="block";
+         document.getElementById('btn4')
+                 .style.display="none";
+       }
+     </script>
+   </section>
+
+     <section class="gal" id="gal4">
+       <hr class="separatoria">
+       <div class="row">
+
+        <div class="divimm">
+          <img class="imm" src="immagini/anna/finestra con cartiglio sx.jpeg" alt="">
+          <p class="didascalia">Dettaglio di portale e finestra con cartiglio</p>
+        </div>
+
+        <div class="divimm">
+          <img class="imm" src="immagini/alessio/giardinointerno5.jpeg" alt="">
+          <p class="didascalia">Giardino interno</p>
+        </div>
+
+        <div class="divimmf">
+          <img class="imm" src="immagini/anna/tanta facciata ma non tutta.jpeg" alt="">
+          <p class="didascalia">Porzione centrale della facciata</p>
+        </div>
+
+       </div>
+
+     </section>
+
+     <h2 class="sottotitolo">In foto è bello, ma dal vivo è meglio. Visitalo di persona qui:</h2>
+      <iframe id="mappa"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1414.5921498589253!2d11.613033159023257!3d44.83817995343356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e4e6d4dfa2207%3A0xadaaecbc8b13c67a!2sPalazzo%20Bentivoglio!5e0!3m2!1sit!2sit!4v1653664046378!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <footer id="footer">
+        <p>Ricerche e contenuti ad opera degli studenti delle classi IA e IB del liceo L.Ariosto di Ferrara come progetto PCTO per gli anni scolastici 2020-2023.</p>
+      </footer>
+    </section>
+
+  </body>
+</html>

@@ -1,0 +1,224 @@
+#body{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: #f9f8f8;
+}
+#primo{
+  margin-top: 0px;
+  margin-left: 0px;
+  background-color: #202328;
+  position: fixed;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+#pb{
+  padding-top: 10px;
+  text-align: center;
+  color: #f9f8f8;
+  font-size: 30px;
+  font-weight: bolder;
+}
+#logo{
+  text-decoration: none;
+  color: #f9f8f8;
+}
+#par{
+  display: none;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-style: oblique;
+  color: #f9f8f8;
+  font-size: 15px;
+}
+
+#mbtn{
+  float: right;
+  margin-top: 25px;
+  margin-right: 20px;
+  background: #202328;
+  border: none;
+  cursor: pointer;
+}
+
+.micon{
+  width: 25px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border: 1px solid #f9f8f8;
+}
+
+#lista{
+  display: none;
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+  line-height: 40px;
+  color: #f9f8f8;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#ogg{
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  color: #f9f8f8;
+  transition: 0.6s;
+  border-bottom: 2px solid #2b2e34
+}
+#ogg:hover{
+  background-color: #2b2e34;
+}
+#contenuti{
+  margin-left: 0px;
+}
+.titolo{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: #202328;
+  color: #f9f8f8;
+  font-style: oblique;
+  font-size: 40px;
+  line-height: 200px;
+  oppure immagine di sfondo, con più padding sopra per centrare il titolo
+}
+#sottotitolo{
+  padding-left: 40px;
+  padding-top: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: #202328;
+  font-size: 20px;
+}
+#paragrafo{
+  padding-left: 30px;
+  padding-right: 40px;
+  font-family: 'Raleway', sans-serif;
+  color: #202328;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: justify;
+}
+#citazione{
+  font-family: 'Raleway', sans-serif;
+  font-style: oblique;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 50px;
+  padding-right: 60px;
+}
+#footer{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-top: 1px solid #2b2e34;
+  color: #202328;
+  background-color: #f9f8f8;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#bannert{
+  font-family: 'Raleway', sans-serif;
+  font-size: 56px;
+  line-height: 90px;
+  color: #f9f8f8;
+  position: absolute;
+  top: 50%;
+  background-color: #202328
+} /* NOTE: ti prego mettilo in sesto perchè si sfasa in una maniera orrenda, martina davvero fai qualcosa */
+/* NOTE: veramente così può essere classificato come crimine d'odio */
+
+#banner{
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.gal{
+  margin-left: 30px;
+  display: block;
+  padding-bottom: 50px;
+}
+.imm{
+  float: left;
+  width: 30%;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+.immf{
+  width: 30%;
+  display: block;
+  margin-bottom: 15px;
+}
+.separatoria{
+  margin-right: 40px;
+  margin-bottom: 50px;
+  border: 1px solid #2b2e34
+}
+
+#gal2{
+  display: none;
+}
+#gal3{
+  display: none;
+}
+#gal4{
+  display: none;
+}
+
+.btn{
+  background-color: #f9f8f8;
+  color: #202328;
+  border: 2px solid #202328;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  width: 85%;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 14px;
+  transition: 0.6s;
+}
+.btn:hover{
+  background-color: #202328;
+  color: #f9f8f8;
+}
+
+#mappa{
+  margin-top: 10px;
+  padding-left: 50px;
+  width: 80%;
+  height: 300px;
+}
+
+#lineatempo{
+  display: none;
+  float: left;
+  padding-left: 10px;
+  height: 1300px;
+}
+#lineaa{
+  border-left: 3px solid #202328;
+  margin-left: 30px;
+}
+#barra{
+  float:left;
+  margin-top: 30px;
+  width: 30px;
+  height: 3px;
+  background-color: #202328;
+}
