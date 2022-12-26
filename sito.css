@@ -262,7 +262,7 @@
 
 /* NOTE: Cron */
 #t_cron{
-  background-image: url("immagini/ivan/centrale1.jpeg");
+  background-image: url("centrale1.jpeg");
   color: #202328;
 }
 
@@ -281,7 +281,7 @@
 
 /* NOTE: Rest */
 #t_rest{
-  background-image: url("immagini/anna/cornicione in restauro.png");
+  background-image: url("cornicione in restauro.png");
 }
 #divimmfoglia{
   width: 30%;
@@ -336,7 +336,7 @@
 
 /* NOTE: Antico */
 #t_ant{
-  background-image: url("immagini/bandaport.png");
+  background-image: url("bandaport.png");
   color: #202328;
 }
 
@@ -377,7 +377,7 @@
 
 /* NOTE: Inq */
 #t_inq{
-  background-image: url("immagini/napoleonefascia.jpg");
+  background-image: url("napoleonefascia.jpg");
 }
 .pgfinq{
   display: flex;
@@ -448,7 +448,7 @@
 
 /* NOTE: Uso */
 #t_uso{
-  background-image: url("immagini/bandascuola.jpg");
+  background-image: url("bandascuola.jpg");
   color: #202328
 }
 
@@ -509,7 +509,7 @@
 
 /* NOTE: Comm */
 #t_comm{
-  background-image: url("immagini/bandacbent.jpg")
+  background-image: url("bandacbent.jpg")
 }
 
 #sottcomm{
