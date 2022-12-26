@@ -874,7 +874,7 @@
 
   /* NOTE: Rest */
   #t_rest{
-    background-image: url("immagini/anna/cornicione in restauro.png");
+    background-image: url("cornicione in restauro.png");
   }
   #divimmfoglia{
     width: 60%;
@@ -944,7 +944,7 @@
 
   /* NOTE: Inq */
   #t_inq{
-    background-image: url("immagini/napoleonefascia.jpg");
+    background-image: url("napoleonefascia.jpg");
   }
   .pgfinq{
     display: block;
